@@ -89,7 +89,7 @@ const JobDetails = () => {
                   Name: {buyer?.name}
                 </p>
                 <p className="mt-2 text-sm  text-gray-600 ">
-                  Email:{buyer?.email}
+                  Email: {buyer?.email}
                 </p>
               </div>
               <div className="rounded-full object-cover overflow-hidden w-14 h-14">
