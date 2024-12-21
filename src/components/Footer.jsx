@@ -15,8 +15,8 @@ const Footer = () => {
                 className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
                 aria-label="Reddit"
               >
-                {" "}
-                Home{" "}
+                {' '}
+                Home{' '}
               </a>
 
               <a
@@ -24,8 +24,8 @@ const Footer = () => {
                 className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
                 aria-label="Reddit"
               >
-                {" "}
-                About{" "}
+                {' '}
+                About{' '}
               </a>
 
               <a
@@ -33,8 +33,8 @@ const Footer = () => {
                 className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
                 aria-label="Reddit"
               >
-                {" "}
-                Teams{" "}
+                {' '}
+                Teams{' '}
               </a>
 
               <a
@@ -42,8 +42,8 @@ const Footer = () => {
                 className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
                 aria-label="Reddit"
               >
-                {" "}
-                Privacy{" "}
+                {' '}
+                Privacy{' '}
               </a>
 
               <a
@@ -51,8 +51,8 @@ const Footer = () => {
                 className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
                 aria-label="Reddit"
               >
-                {" "}
-                Cookies{" "}
+                {' '}
+                Cookies{' '}
               </a>
             </div>
           </div>
