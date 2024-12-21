@@ -1,10 +1,10 @@
-import { useContext, useState } from "react";
-import { AuthContext } from "../provider/AuthProvider";
-import { useLoaderData } from "react-router-dom";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import axios from "axios";
-import toast from "react-hot-toast";
+import { useContext, useState } from 'react';
+import { AuthContext } from '../provider/AuthProvider';
+import { useLoaderData } from 'react-router-dom';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+import axios from 'axios';
+import toast from 'react-hot-toast';
 
 const JobDetails = () => {
   const [startDate, setStartDate] = useState(new Date());
@@ -24,19 +24,19 @@ const JobDetails = () => {
   const handleFormSubmission = async (e) => {
     e.preventDefault();
     if (user?.email === buyer?.email) {
-      return toast.error("Action not permitted!");
+      return toast.error('Action not permitted!');
     }
     const form = e.target;
     const jobId = _id;
     const price = parseInt(form.price.value);
     if (price < parseFloat(min_price)) {
-      return toast.error("Offer more or at least equal to Minimum Price.");
+      return toast.error('Offer more or at least equal to Minimum Price.');
     }
     const comment = form.comment.value;
     const deadline = startDate;
     const email = user?.email;
     // const buyer_email = buyer_email
-    const status = "Pending";
+    const status = 'Pending';
 
     const bidData = {
       jobId,

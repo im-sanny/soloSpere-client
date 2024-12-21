@@ -1,10 +1,10 @@
-import { useContext, useState } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import { AuthContext } from "../provider/AuthProvider";
-import axios from "axios";
-import toast from "react-hot-toast";
-import { useNavigate } from "react-router-dom";
+import { useContext, useState } from 'react';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+import { AuthContext } from '../provider/AuthProvider';
+import axios from 'axios';
+import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 const AddJob = () => {
   const { user } = useContext(AuthContext);
@@ -41,8 +41,8 @@ const AddJob = () => {
         jobData
       );
       console.log(data);
-      toast.success("Job Data Updated Successfully!");
-      navigate("/my-posted-jobs");
+      toast.success('Job Data Updated Successfully!');
+      navigate('/my-posted-jobs');
     } catch (err) {
       console.log(err);
     }
